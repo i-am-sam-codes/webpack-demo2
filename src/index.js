@@ -1,6 +1,7 @@
 import _ from "lodash";
 import myName from "./myName";
 import "./style.css";
+import Dragon from "./dragon-logo.png";
 
 function component() {
   const element = document.createElement("div");
@@ -10,6 +11,9 @@ function component() {
 
   element.textContent = myName("Shazam");
   element.classList.add("hello");
+
+  const myDragon = new Image();
+  myDragon.src = Dragon;
 
   return element;
 }
