@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "MyFont";
+  font-family: "Bebas Neue", cursive;
 
   src: url("./my-font.woff2") format("woff2"),
     url("./my-font.woff") format("woff");
@@ -11,6 +11,6 @@
 
 .hello {
   color: red;
-  font-family: "MyFont";
+  font-family: "Bebas Neue", cursive;
   background: url("./dragon-logo.png");
 }

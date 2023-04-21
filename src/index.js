@@ -11,7 +11,7 @@ function component() {
   // Lodash, now imported by this script
   element.innerHTML = _.join(["Hello", "webpack"], " ");
 
-  element.textContent = myName("Shazam");
+  element.textContent = myName("shining star!");
   element.classList.add("hello");
 
   const myDragon = new Image();
